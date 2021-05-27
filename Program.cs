@@ -6,8 +6,8 @@ namespace SalesTracker
 {
     public class Sale
     {
-        public string employee;
-        public decimal salesAmount;
+        private string employee;
+        private decimal salesAmount;
         private readonly decimal commissionRate;
 
         public Sale(string name, decimal salesAmount, decimal commissionRate)
